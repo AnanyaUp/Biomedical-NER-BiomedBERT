@@ -1,0 +1,13 @@
+## Model & Dataset Details
+
+- **Model:** `microsoft/BiomedNLP-BiomedBERT-base-uncased-abstract-fulltext`  
+- **Dataset:** BC5CDR (Biomedical Chemical-Disease Relation corpus)
+  - Entities: `Chemical`, `Disease`
+  - Data format: JSON with `tokens` and `tags` fields
+
+Example JSON snippet:
+```json
+{
+  "tokens": ["Aspirin", "reduces", "risk", "of", "stroke", "."],
+  "tags": [1, 0, 0, 0, 2, 0]
+}
